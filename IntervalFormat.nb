@@ -1,0 +1,136 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4109,        128]
+NotebookOptionsPosition[      3532,        103]
+NotebookOutlinePosition[      3879,        118]
+CellTagsIndexPosition[      3836,        115]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["To change the format of an interval ",
+ FontFamily->"Arial",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontColor->GrayLevel[0]]], "Subsubsection",
+ CellChangeTimes->{{3.732291874976346*^9, 3.732292100909728*^9}, {
+   3.732292781313198*^9, 3.732292781313198*^9}, {3.732336619587534*^9, 
+   3.732336684361273*^9}, {3.732336813247888*^9, 3.732336820668549*^9}, {
+   3.732337376993465*^9, 3.732337387888495*^9}, {3.7323391860872917`*^9, 
+   3.732339204793551*^9}, {3.7323400268909492`*^9, 3.732340196379924*^9}, {
+   3.732340278028426*^9, 3.732340300873261*^9}, {3.732468067302008*^9, 
+   3.732468084408923*^9}, {3.7324682308033304`*^9, 3.7324682323878584`*^9}, {
+   3.732471835160137*^9, 3.7324718353281355`*^9}, 3.7330636898788824`*^9, {
+   3.7330637668494687`*^9, 3.733063769679783*^9}, {3.7391210782765045`*^9, 
+   3.739121088160083*^9}, {3.7391228623052983`*^9, 3.7391228751569347`*^9}, {
+   3.7391229270069847`*^9, 3.739122929198119*^9}},
+ Background->RGBColor[1, 0.9, 0.8],
+ ExpressionUUID -> "fed561c1-6561-47ec-9931-342e5b0a683b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"IntervalToEnds", "[", "Interval_", "]"}], ":=", 
+  RowBox[{"Return", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Interval", "[", 
+      RowBox[{"[", 
+       RowBox[{"1", ",", "1"}], "]"}], "]"}], ",", 
+     RowBox[{"Interval", "[", 
+      RowBox[{"[", 
+       RowBox[{"1", ",", "2"}], "]"}], "]"}]}], "}"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.739121301284886*^9, 3.739121310763593*^9}, {
+  3.739121995837537*^9, 3.73912199802967*^9}, {3.739122935173335*^9, 
+  3.7391229975293474`*^9}, {3.7391245253378134`*^9, 3.739124563468878*^9}},
+ Background->RGBColor[1, 1, 0.85]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntervalToEnds", "[", 
+  RowBox[{"Interval", "[", 
+   RowBox[{"{", 
+    RowBox[{"3", ",", "5"}], "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.739124603882852*^9, 3.7391246190303965`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"3", ",", "5"}], "}"}]], "Output",
+ CellChangeTimes->{3.739124619520042*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"EndsToInterval", "[", 
+   RowBox[{"{", 
+    RowBox[{"d_", ",", "e_"}], "}"}], "]"}], ":=", 
+  RowBox[{"Return", "[", 
+   RowBox[{"Interval", "[", 
+    RowBox[{"{", 
+     RowBox[{"d", ",", "e"}], "}"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.739121301284886*^9, 3.739121310763593*^9}, {
+  3.739121995837537*^9, 3.73912199802967*^9}, {3.739122935173335*^9, 
+  3.7391230302658963`*^9}, {3.7391243388054543`*^9, 3.7391243942403097`*^9}},
+ Background->RGBColor[1, 1, 0.85]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EndsToInterval", "[", 
+  RowBox[{"{", 
+   RowBox[{"3", ",", "5"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7391246428000383`*^9, 3.7391246520971737`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Interval", "[", 
+  RowBox[{"{", 
+   RowBox[{"3", ",", "5"}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{3.739124652740452*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1350, 685},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.0 para Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1054, 17, 44, "Subsubsection"],
+Cell[1637, 41, 615, 15, 63, "Input"],
+Cell[CellGroupData[{
+Cell[2277, 60, 219, 5, 47, "Input"],
+Cell[2499, 67, 115, 3, 30, "Output"]
+}, Open  ]],
+Cell[2629, 73, 512, 12, 63, "Input"],
+Cell[CellGroupData[{
+Cell[3166, 89, 184, 4, 30, "Input"],
+Cell[3353, 95, 151, 4, 63, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
